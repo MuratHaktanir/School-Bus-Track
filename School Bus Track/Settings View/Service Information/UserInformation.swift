@@ -39,7 +39,7 @@ struct UserInformation: View {
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .topLeading)
                     .background(
-                        Color(colorScheme == .light ? .orange : .systemFill)
+                        Color(colorScheme == .light ? .systemGray4 : .systemFill)
                             .cornerRadius(12)
                             .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.40), radius: 2, x: -5, y: 3)
                     )
